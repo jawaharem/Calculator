@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 30px;
+}
+.Calculator {
+  background-color: black;
+  padding: 10px;
+}
+.Calculator form input {
+  outline: 0px;
+  border: 0px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  background-color: transparent;
+  box-shadow: 20px -10px 60px #3f3f3f;
+  color: white;
+  margin: 5px;
+  cursor: pointer;
+}
+.Calculator form input:hover {
+  border-radius: 50px;
+  background: white;
+  color: black;
+}
+#display {
+  text-align: right;
+  width: 160px;
+  border-radius: 10px;
+}
+#equal {
+  width: 70px;
+}
